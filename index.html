@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Booki</title>
+        <link rel="stylesheet" href= "./CSS/style.css"/>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Raleway&display=swap');</style> 
+        <script src="https://kit.fontawesome.com/6ac0b5e980.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div><img class="logo" src="./images/logo/Booki.png" alt="logo"></div>
+            <nav>
+                <ul> <!-- lien avec ancre-->
+                    <li><a href="#hebergements-marseille">Hébergements</a></li> 
+                    <li><a href="#activites-marseille">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+        <form action="traitement.php" method="POST":>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+            <span>
+                <div><i class="fas fa-location-dot" id="location-dot" ></i></div>
+                <input type="text" name="spot-holidays" id="spot-holidays" placeholder="Marseille, France"/>
+                <input type="submit" id="btn-rechercher" value="Rechercher"/>
+            </span>
+        </form>
+        <section class="filtres">
+            <div class="filtres-title">
+                <div class="filtres-button" id="filtres-title">Filtres</div>
+                <div class="filtres-button" id="filtres-button-eco"><i class="fas fa-money-bill-wave"></i>économique</div>
+                <div class="filtres-button"><i class="fas fa-person"></i>Familial</div>
+                <div class="filtres-button"><i class="fas fa-heart"></i>Romantique</div>
+                <div class="filtres-button" id="filtres-button-dog"><i class="fas fa-dog"></i>Animaux autorisés</div>
+            </div>
+            <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
+        <!--
+        <section>
+            <div id="hebergements-marseille">Hébergements à Marseille</div>
+        </section>
+            <div id="activites-marseille">Activités à Marseille</div>-->
+    </body>
+</html>
