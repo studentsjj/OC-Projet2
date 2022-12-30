@@ -153,6 +153,7 @@ form i {
 
 #filtres-title {
     border: transparent;
+    background-color: transparent;
     margin-right: 10px;
     padding-left: 0px;
     font-size: 18px;
@@ -167,9 +168,10 @@ form i {
     font-size: 20px;
 }
 
-#filtres-button-dog {
+.filtres-button:hover {
     background-color: #DEEBFF;
 }
+
 
 section p {
     margin-top: 32px; 
