@@ -531,7 +531,7 @@ footer a {
     /*** Filtres ***/
 
     .filter {
-        margin: 4%;
+        margin: 4% 4% 0 4%;
     }
 
     .filter-button-container {
@@ -566,10 +566,11 @@ footer a {
         flex-direction: column;
         gap: 0;
     }
-    
+
     .popular {
         order: 1; /*changement ordre d'apparition*/
         border-radius: unset;
+        padding : 10% 5% 10% 5%;
     }
 
     .popular-cards {
